@@ -1,0 +1,136 @@
+.Navbar{
+    display:grid;
+    grid-template-columns:300px auto 200px;
+    border-bottom: 1px solid rgba(183, 183, 183, 0.561);
+    align-items: center;
+    padding: 5px;
+}
+.Navbar__left{
+    display: flex;
+    align-items: center;
+
+}
+ .icon__box{
+    margin-left: 50px;
+    } 
+
+ .icon__box svg{
+    font-size: 21px;
+    margin-left: 0px;
+}  
+
+ .img__box{
+    margin-left: 20px;
+} 
+
+/* styling anv bar middle */
+
+.Navbar__middle{
+    display: flex;
+    flex: 0.7; 
+}
+
+.Navbar__middle svg{
+    font-size: 20px;
+}
+.search__box{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex: 0.7;
+}
+.Navbar__middle input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    flex: 1;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+/* styling navbar right */
+.Navbar__right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Navbar__right .MuiAvatar-root{
+    height: 25px;
+    width: 25px;
+    background-image: linear-gradient(to left top, blue, rgb(255, 0, 238));;
+    font-size: 10px;
+    font-weight: 900;
+}
+.Navbar__right svg{
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 400px) {
+    .Navbar{
+        background-color: green;
+        grid-template-columns:200px auto 100px;
+        padding: 1px;
+    }
+
+    .Navbar__left{
+        display: flex;
+        align-items: center;
+    
+    }
+     .icon__box{
+        margin-left: 10px;
+        } 
+    
+     .icon__box svg{
+        font-size: 15px;
+        margin-left: 0px;
+    }  
+    
+     .img__box{
+        margin-left: 10px;
+    } 
+/* navbar middel8  */
+.Navbar__middle{
+    display: flex;
+    flex: 0.3; 
+}
+
+.Navbar__middle svg{
+    font-size: 10px;
+}
+.search__box{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex: 0.7;
+}
+.Navbar__middle input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    flex: 1;
+    font-size: 7px;
+    letter-spacing: 0.5px;
+}
+
+
+
+/* styling navbar right */
+.Navbar__right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.Navbar__right .MuiAvatar-root{
+    height: 12px;
+    width: 12px;
+    background-image: linear-gradient(to left top, blue, rgb(255, 0, 238));;
+    font-size: 5px;
+    font-weight: 900;
+}
+.Navbar__right svg{
+    font-size: 9px;
+}
+  }

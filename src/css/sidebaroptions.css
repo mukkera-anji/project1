@@ -1,0 +1,27 @@
+.Sidebaroptions{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border-radius: 20px;
+    padding: 0 10px;
+    margin-right: 10px;
+    width: 200px;
+
+}
+.Sidebaroptions svg{
+    color: rgb(94, 94 ,94);
+    font-size: 14px;
+    margin-right: 10px;
+}
+.Sidebaroptions p{
+    font-size: 14px;
+    color: rgb(50, 49, 49) ;
+}
+.Sideoptions--active{
+    background-color: rgba(215, 213, 213, 0.743);
+    color: black;
+    font-weight: 800;
+}
+.Sidebaroptions:hover{
+    background-color: whitesmoke;
+}
